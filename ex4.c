@@ -34,9 +34,9 @@ int main(){
   }
   printf("Heads:%d, Tails:%d\n",headscounter,tailscounter);
   if(headscounter>tailscounter){
-      printf("You won\n");
-    }
-    else{ printf("You lost\n");
-    }
+   printf("%s won\n",name);
+ }
+ else{ printf("%s lost\n",name);
+ }
 return 0;
 }
