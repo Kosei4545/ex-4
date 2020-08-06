@@ -18,6 +18,9 @@ int main(){
       number=0;
     }
   }
+  printf("Who are you?\n");
+ scanf("%s",name);
+ printf("Hello, %s\n",name);
 
   printf("Tossing a coin\n");
   for(i=0;i<3;i++){
